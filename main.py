@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load the dataset
-file_path = 'clean_social.csv'
+file_path = 'data_set.csv'
 data = pd.read_csv(file_path)
 
 # Preprocess the data
